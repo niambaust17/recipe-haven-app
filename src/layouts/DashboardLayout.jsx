@@ -19,7 +19,7 @@ const DashboardLayout = () => {
         <Outlet />
         <label
           htmlFor="my-drawer-2"
-          className="btn btn-primary drawer-button lg:hidden"
+          className="btn btn-primary drawer-button lg:hidden m-6"
         >
           Open drawer
         </label>
@@ -37,10 +37,10 @@ const DashboardLayout = () => {
               <Link to="">Dashboard</Link>
             </li>
             <li>
-              <Link to="profile">Profile</Link>
+              <Link to="all-recipes">All Recipes</Link>
             </li>
             <li>
-              <Link to="setting">Setting</Link>
+              <Link to="add-recipe">Add Recipe</Link>
             </li>
             <li>
               <Link to="/">Home</Link>

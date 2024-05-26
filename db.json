@@ -1,0 +1,196 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Spaghetti Carbonara",
+      "author": "John Doe",
+      "ingredients": [
+        "200g spaghetti",
+        "100g pancetta",
+        "2 large eggs",
+        "50g pecorino cheese",
+        "50g parmesan",
+        "Black pepper",
+        "Salt",
+        "2 cloves garlic"
+      ],
+      "instructions": "1. Boil the spaghetti. 2. Fry the pancetta with garlic. 3. Beat the eggs and mix with cheese. 4. Combine everything and season with salt and pepper.",
+      "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+      "image_url": "https://img.freepik.com/free-photo/spaghetti-carbonara-pasta-with-bacon_2829-20144.jpg?w=1480"
+    },
+    {
+      "id": "2",
+      "title": "Chicken Tikka Masala",
+      "author": "Jane Smith",
+      "ingredients": [
+        "600g chicken breasts",
+        "1 cup yogurt",
+        "2 tbsp lemon juice",
+        "2 tsp ground cumin",
+        "2 tsp ground coriander",
+        "1 tsp turmeric",
+        "2 tsp paprika",
+        "1 tsp garam masala",
+        "1 tbsp minced garlic",
+        "1 tbsp minced ginger",
+        "1 can tomato sauce",
+        "1 cup cream",
+        "Salt",
+        "Cilantro"
+      ],
+      "instructions": "1. Marinate chicken in yogurt and spices. 2. Grill the chicken. 3. Prepare sauce with garlic, ginger, and tomato sauce. 4. Add cream and grilled chicken. 5. Garnish with cilantro.",
+      "description": "A popular Indian curry dish featuring marinated grilled chicken in a creamy tomato sauce.",
+      "image_url": "https://img.freepik.com/free-photo/delicious-chicken-tikka-masala-curry_23-2148862365.jpg?w=1480",
+      "ingredientsArray": [
+        "600g chicken breasts",
+        "1 cup yogurt",
+        "2 tbsp lemon juice",
+        "2 tsp ground cumin",
+        "2 tsp ground coriander",
+        "1 tsp turmeric",
+        "2 tsp paprika",
+        "1 tsp garam masala",
+        "1 tbsp minced garlic",
+        "1 tbsp minced ginger",
+        "1 can tomato sauce",
+        "1 cup cream",
+        "Salt",
+        "Cilantro"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Vegan Chocolate Cake",
+      "author": "Emily Brown",
+      "ingredients": [
+        "1 1/2 cups flour",
+        "1 cup sugar",
+        "1/4 cup cocoa powder",
+        "1 tsp baking soda",
+        "1/2 tsp salt",
+        "1 cup water",
+        "1/3 cup vegetable oil",
+        "1 tbsp vinegar",
+        "1 tsp vanilla extract"
+      ],
+      "instructions": "1. Preheat oven and prepare the baking pan. 2. Mix dry ingredients. 3. Add wet ingredients and mix. 4. Pour into pan and bake. 5. Cool before serving.",
+      "description": "A rich and moist vegan chocolate cake that's easy to make and perfect for any occasion.",
+      "image_url": "https://img.freepik.com/free-photo/vegan-chocolate-cake-with-nuts_2829-18602.jpg?w=1480"
+    },
+    {
+      "id": "4",
+      "title": "Avocado Toast",
+      "author": "Michael Lee",
+      "ingredients": [
+        "2 slices of bread",
+        "1 ripe avocado",
+        "1 tbsp lemon juice",
+        "Salt",
+        "Pepper",
+        "Red chili flakes",
+        "Olive oil"
+      ],
+      "instructions": "1. Toast the bread. 2. Mash the avocado with lemon juice, salt, and pepper. 3. Spread avocado on toast. 4. Sprinkle with chili flakes and drizzle with olive oil.",
+      "description": "A simple and healthy avocado toast recipe, perfect for a quick breakfast or snack.",
+      "image_url": "https://img.freepik.com/free-photo/avocado-toast-with-cherry-tomatoes_2829-11229.jpg?w=1480"
+    },
+    {
+      "id": "5",
+      "title": "Beef Tacos",
+      "author": "Carlos Garcia",
+      "ingredients": [
+        "500g ground beef",
+        "1 packet taco seasoning",
+        "1/2 cup water",
+        "8 taco shells",
+        "1 cup shredded lettuce",
+        "1 cup diced tomatoes",
+        "1 cup shredded cheese",
+        "Sour cream",
+        "Salsa"
+      ],
+      "instructions": "1. Cook beef with taco seasoning and water. 2. Prepare taco shells. 3. Assemble tacos with beef, lettuce, tomatoes, and cheese. 4. Top with sour cream and salsa.",
+      "description": "Delicious and easy-to-make beef tacos, perfect for a fun and tasty meal.",
+      "image_url": "https://img.freepik.com/free-photo/beef-tacos-with-vegetables-salsa_2829-19844.jpg?w=1480"
+    },
+    {
+      "id": "6",
+      "title": "Mushroom Risotto",
+      "author": "Sophia Rodriguez",
+      "ingredients": [
+        "1 cup Arborio rice",
+        "4 cups vegetable broth",
+        "2 tbsp olive oil",
+        "1 onion, finely chopped",
+        "2 cloves garlic, minced",
+        "200g mushrooms, sliced",
+        "1/2 cup white wine",
+        "1/2 cup grated Parmesan cheese",
+        "2 tbsp butter",
+        "Salt",
+        "Black pepper",
+        "Fresh parsley, chopped"
+      ],
+      "instructions": "1. Heat olive oil in a large skillet. 2. Sauté onion and garlic until translucent. 3. Add mushrooms and cook until browned. 4. Stir in rice and cook until translucent. 5. Add wine and cook until absorbed. 6. Gradually add broth, stirring constantly. 7. Cook until rice is creamy and tender. 8. Stir in Parmesan cheese and butter. 9. Season with salt and pepper. 10. Garnish with chopped parsley.",
+      "description": "A creamy and flavorful Italian rice dish made with Arborio rice, mushrooms, and Parmesan cheese.",
+      "image_url": "https://img.freepik.com/free-photo/delicious-italian-mushroom-risotto_2829-16653.jpg?w=1480"
+    },
+    {
+      "id": "7",
+      "title": "Greek Salad",
+      "author": "Maria Papadopoulos",
+      "ingredients": [
+        "2 tomatoes, diced",
+        "1 cucumber, diced",
+        "1 red onion, thinly sliced",
+        "1 green bell pepper, diced",
+        "1/2 cup Kalamata olives, pitted",
+        "1/2 cup crumbled feta cheese",
+        "2 tbsp olive oil",
+        "1 tbsp red wine vinegar",
+        "1 tsp dried oregano",
+        "Salt",
+        "Black pepper"
+      ],
+      "instructions": "1. In a large bowl, combine tomatoes, cucumber, red onion, bell pepper, olives, and feta cheese. 2. Drizzle with olive oil and red wine vinegar. 3. Sprinkle with dried oregano. 4. Season with salt and pepper. 5. Toss to combine.",
+      "description": "A refreshing and colorful salad made with tomatoes, cucumbers, olives, and feta cheese, dressed with olive oil and vinegar.",
+      "image_url": "https://img.freepik.com/free-photo/delicious-greek-salad-with-feta-cheese-olives_2829-19846.jpg?w=1480"
+    },
+    {
+      "id": "8",
+      "title": "Pesto Pasta",
+      "author": "Luca Rossi",
+      "ingredients": [
+        "250g pasta",
+        "2 cups fresh basil leaves",
+        "1/2 cup grated Parmesan cheese",
+        "1/4 cup pine nuts",
+        "2 cloves garlic",
+        "1/2 cup olive oil",
+        "Salt",
+        "Black pepper"
+      ],
+      "instructions": "1. Cook pasta according to package instructions. 2. In a food processor, combine basil, Parmesan cheese, pine nuts, and garlic. 3. Pulse until finely chopped. 4. With the motor running, gradually add olive oil until smooth. 5. Season with salt and pepper. 6. Toss cooked pasta with pesto sauce until well coated.",
+      "description": "A flavorful Italian pasta dish made with fresh basil pesto, Parmesan cheese, and pine nuts.",
+      "image_url": "https://img.freepik.com/free-photo/delicious-pasta-with-basil-pesto-sauce_2829-19099.jpg?w=1480"
+    },
+    {
+      "id": "9",
+      "title": "Chicken Caesar Salad",
+      "author": "David Johnson",
+      "ingredients": [
+        "2 chicken breasts",
+        "1 head romaine lettuce, chopped",
+        "1 cup croutons",
+        "1/2 cup grated Parmesan cheese",
+        "1/4 cup Caesar dressing",
+        "Salt",
+        "Black pepper",
+        "Olive oil"
+      ],
+      "instructions": "1. Season chicken breasts with salt and pepper. 2. Heat olive oil in a skillet over medium heat. 3. Cook chicken until golden brown and cooked through. 4. Let chicken rest for a few minutes, then slice thinly. 5. In a large bowl, combine romaine lettuce, croutons, Parmesan cheese, and Caesar dressing. 6. Toss to combine. 7. Top with sliced chicken.",
+      "description": "A classic salad made with grilled chicken, crisp romaine lettuce, crunchy croutons, Parmesan cheese, and Caesar dressing.",
+      "image_url": "https://img.freepik.com/free-photo/chicken-caesar-salad_2829-19105.jpg?w=1480"
+    }
+  ]
+}

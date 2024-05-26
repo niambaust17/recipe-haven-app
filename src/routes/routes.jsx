@@ -11,6 +11,10 @@ import ErrorPage from "../pages/ErrorPage";
 import Profile from "../pages/Profile";
 import Setting from "../pages/Setting";
 import PrivateRoute from "./private/PrivateRoute";
+import RecipeDetail from "../pages/RecipeDetail";
+import AllRecipes from "../pages/AllRecipes";
+import AddRecipe from "../pages/AddRecipe";
+import EditRecipe from "../pages/EditRecipe";
 
 export const router = createBrowserRouter([
   {
@@ -21,6 +25,12 @@ export const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+        loader: () => fetch('http://localhost:3000/recipes')
+      },
+      {
+        path: "/recipes/:id",
+        element: <RecipeDetail />,
+        loader: ({params}) => fetch(`http://localhost:3000/recipes/${params.id}`)
       },
       {
         path: "about",
@@ -46,16 +56,21 @@ export const router = createBrowserRouter([
     errorElement: <ErrorPage/>,
     children: [
         {
-          path: "dashboard",
+          path: "",
           element: <Dashboard />,
         },
         {
-          path: "profile",
-          element: <Profile />,
+          path: "all-recipes",
+          element: <AllRecipes />,
         },
         {
-          path: "setting",
-          element: <Setting />,
+          path: "add-recipe",
+          element: <AddRecipe />,
+        },
+        {
+          path: "all-recipes/edit/:id",
+          element: <EditRecipe />,
+          loader: ({params}) => fetch(`http://localhost:3000/recipes/${params.id}`)
         },
       ],
   },
