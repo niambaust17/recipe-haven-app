@@ -1,6 +1,8 @@
 import {
   useAuthState,
   useCreateUserWithEmailAndPassword,
+  useSignInWithFacebook,
+  useSignInWithGoogle,
 } from "react-firebase-hooks/auth";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import auth from "../firebase/firebase.config";
@@ -9,6 +11,18 @@ import { useEffect, useState } from "react";
 const Register = () => {
   const [passMatch, setPassMatch] = useState(true);
   const [user] = useAuthState(auth);
+
+  console.log(user);
+
+  const [signInWithGoogle] = useSignInWithGoogle(auth);
+  const [signInWithFacebook] = useSignInWithFacebook(auth);
+
+  const handleGoogleLogin = async () => {
+    await signInWithGoogle();
+  };
+  const handleFacebookLogin = async () => {
+    await signInWithFacebook();
+  };
 
   const navigate = useNavigate();
   const location = useLocation();
@@ -106,7 +120,10 @@ const Register = () => {
               <button className="btn btn-primary">Register</button>
             </div>
             <div className="form-control mt-3">
-              <button className="btn btn-primary">Login with Google</button>
+              <button onClick={handleGoogleLogin} className="btn btn-primary">Login with Google</button>
+            </div>
+            <div className="form-control mt-3">
+              <button onClick={handleFacebookLogin} className="btn btn-primary">Login with Facebook</button>
             </div>
           </form>
         </div>

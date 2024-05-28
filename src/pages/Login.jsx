@@ -6,6 +6,7 @@ import {
   useSignInWithEmailAndPassword,
 } from "react-firebase-hooks/auth";
 import auth from "../firebase/firebase.config";
+import FacebookLogin from "../components/auth/FacebookLogin";
 
 const Login = () => {
   const [user] = useAuthState(auth);
@@ -76,6 +77,7 @@ const Login = () => {
               <button className="btn btn-primary">Login</button>
             </div>
             <GoogleLogin />
+            <FacebookLogin/>
           </form>
         </div>
       </div>
